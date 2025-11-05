@@ -1,0 +1,5 @@
+pytest
+psutil
+GPUtil
+setuptools
+socket
