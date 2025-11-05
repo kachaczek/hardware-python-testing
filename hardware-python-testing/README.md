@@ -1,13 +1,14 @@
 # Hardware Integration Testing (Python + Pytest)
 
 This project provides a simple but extensible **hardware validation test suite** written in Python using **pytest**.  
-It demonstrates how to perform *integration-level hardware checks* — verifying that system components such as CPU, RAM, storage, GPU, and battery respond correctly.
+It demonstrates how to perform integration hardware tests — verifying that system components such as CPU, RAM, storage, and battery respond correctly.
+The project is designed just for learning purposes.
 
-The project is designed just for learning purposes and it contains:
+The project contains:
 - usage of **fixtures** and **pytest markers** (`@pytest.mark.hardware`, `@pytest.mark.integration`)
 - meaningful **assertions and messages**
 - **graceful handling** of missing hardware (using `pytest.skip`)
-- clear **docstrings** and consistent structure (ready for CI/CD reporting)
+- clear **docstrings** and consistent structure
 
 ## Installation & Setup
 
